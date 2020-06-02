@@ -23,7 +23,7 @@ int main() {
     servo.period(.02);
     while(1) {
     //TODO: revise this value according to your result
-    servo_control(7);
+    servo_control(36.94045458024288);
     steps = 0;
     t.reset();
     t.start();
